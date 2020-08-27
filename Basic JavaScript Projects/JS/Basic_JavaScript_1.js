@@ -10,3 +10,5 @@ function myFirstFunction() { //Defininng my function
     var result = str.fontcolor("green"); //Changes test to green
     document.getElementById("Green_Text").innerHTML = result; //assigns the ID
 }
+
+document.write("<br><br>3 + 3");
