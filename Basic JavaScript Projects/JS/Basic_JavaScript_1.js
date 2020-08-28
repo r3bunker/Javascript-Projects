@@ -11,4 +11,4 @@ function myFirstFunction() { //Defininng my function
     document.getElementById("Green_Text").innerHTML = result; //assigns the ID
 }
 
-document.write("<br><br>3 + 3");
+document.write(3 + 3);
