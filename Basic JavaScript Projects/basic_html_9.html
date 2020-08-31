@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf Slide Show</title>
+    <link rel="stylesheet" href="./css/basic_css_9.css">
+    <script src="JS/Basic_JavaScript_9.js"></script>
+</head>
+
+<body>
+    <div class="slideshowContainer">
+        <div class="mySlides fade">
+            <div class="numbertextblack">1 / 3</div>
+            <img src="./images/golf_1.jpg" alt="cedarhillsgolf">
+            <div class="text">Cedar hills #10</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./images/golf_2.jpg" alt="foxhollowgolf">
+            <div class="text">Fox Hollow #6</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./images/golf_3.jpg" alt="sleepyridgegolf">
+            <div class="text">Sleepy Ridge #11</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+</body>
+
+</html>
