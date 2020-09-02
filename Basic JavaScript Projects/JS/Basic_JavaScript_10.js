@@ -45,9 +45,9 @@ document.write(X); { //displays 25 from above var X
 document.write("<br>" + X); //displays 25 from above var X
 
 function myFunction(name) {
-    return "Welcome, " + name;
+    document.getElementById("greeting").innerHTML = "Welcome, " + name;
 }
-document.getElementById("greeting").innerHTML = myFunction("Ryan"); //Displays "Welcome, Ryan"
+//Displays "Welcome, Ryan"
 
 let car = { //defines an object
     make: "Volkwagen ",
