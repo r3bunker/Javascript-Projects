@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <script src="./JS/JS_2.js"></script>
+    <link rel="stylesheet" href="./CSS/css_1.css">
+</head>
+
+<body>
+    <div class="contactContainer">
+        <div class="header">
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                <label for="fName">First Name</label>
+                <input id="fName" type="text" value="" placeholder="Your name...">
+                <br><br>
+                <label for="lName">Last Name</label>
+                <input id="lName" type="text" value="" placeholder="Your last name...">
+                <br><br>
+                <label for="age">Age</label>
+                <input id="age" type="text" value="" placeholder="Your age...">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

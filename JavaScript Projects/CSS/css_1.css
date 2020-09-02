@@ -1,0 +1,38 @@
+.contactContainer {
+    text-align: center;
+    padding: 8px 12px;
+    background-color: rgba(240, 238, 238, 0.952);
+    border-radius: 8px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    font-size: 18pt;
+    margin: 8px, 0;
+}
+
+input {
+    font-weight: bold;
+    margin: 0;
+}
+
+input[type=submit] {
+    width: 80%;
+    background-color: #19d619;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: hsla(120, 82%, 45%, 0.827);
+}
+
+input[type=text] {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    display: inline-block;
+}
