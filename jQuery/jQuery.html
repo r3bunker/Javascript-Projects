@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function() {
+        $("html").append( //adds html to the DOM using jQuery
+            "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='p1'>Paragraph 1</p>\
+                            <p id='p2'>Paragraph 2</p>\
+                            <p id='p3'>Parapraph 3</p>\
+                        </div>\
+                    </div>\
+                </body>\ "
+        );
+        $("#p2").css({ //changes paragraph 2 font color to red
+            "color": "red"
+        });
+        $("#p1").css({ //changes paragraph 1 font color to green
+            "color": "green"
+        });
+        $("#p3").click(function() { //hides h1 when paragraph 3 is clicked
+            $('h1').hide();
+        });
+        $("h1").on("click", function() { //sends a message in the console when h1 is clicked
+            console.log("a button with the alert class was clicked!");
+        });
+        $("#p2").click(function() { //slowly hides paragraph 1 when paragraph 2 is clicked 
+            $("#p1").hide("slow");
+        });
+    });
+</script>
+
+</html>
