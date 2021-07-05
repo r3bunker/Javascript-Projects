@@ -8,7 +8,7 @@ function countdown() {
 
             setTimeout(tick, 1000); //stops the timer at 0 seconds
         }
-        if (seconds == 0) {
+        if (seconds == -1) {
             alert("Time's Up!"); //alerts the window "Time's up! when it reaches 0"
 
         }
